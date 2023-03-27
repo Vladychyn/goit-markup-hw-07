@@ -1,0 +1,75 @@
+ @media screen and (min-width: 768px) {
+     .container {
+         max-width: 736px;
+     }
+
+     .section-about {
+         max-width: 768px;
+         padding: 112px 0;
+         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                 rgba(46, 47, 66, 0.7)),
+             url(../images/people-office-tab.jpg);
+     }
+
+     @media (min-device-pixel-ratio: 2),
+     (min-resolution: 192dpil),
+     (min-resolution: 2dppx) {
+         .section-about {
+             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                     rgba(46, 47, 66, 0.7)),
+                 url(../images/people-office-tab-2x.jpg);
+         }
+     }
+
+     .section-about-title {
+         font-size: 56px;
+         line-height: 1.07;
+         width: 496px;
+         margin-bottom: 36px;
+     }
+
+     .section-services {
+         padding: 96px 16px;
+     }
+
+     .section-services-item {
+         width: calc((100% - 24px) / 2);
+         gap: 24px;
+     }
+
+     .section-services-subtitle {
+         font-size: 36px;
+         line-height: 1.11;
+     }
+
+     .section-services-text {
+         font-size: 16px;
+         line-height: 1.5;
+     }
+
+     .section-contact,
+     .section-customers {
+         padding-top: 96px;
+         padding-bottom: 96px;
+     }
+
+     .section-contact-item {
+         width: calc((100% - 24px) / 2);
+         gap: 24px;
+     }
+
+     .section-customers-item {
+         width: calc((100% - 48px) / 3);
+         gap: 24px;
+     }
+
+     .footer {
+         width: 768px;
+         padding: 96px 0;
+     }
+
+     .footer-list {
+         width: calc((100% - 24px) / 2);
+         gap: 24px;
+     }
+ }
