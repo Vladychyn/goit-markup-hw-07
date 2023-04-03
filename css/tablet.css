@@ -1,6 +1,53 @@
  @media screen and (min-width: 768px) {
      .container {
-         max-width: 736px;
+         max-width: 766px;
+     }
+
+     @media screen and (max-width: 1199px) {
+         .header-list-info {
+             display: block;
+         }
+     }
+
+     .header-nav-mob {
+         background-color: transparent;
+         max-width: unset;
+         height: unset;
+         position: static;
+     }
+
+     .header-btn-close {
+         display: none;
+     }
+
+
+     .header-list {
+         display: flex;
+         gap: 40px;
+         padding: 0;
+         margin: 0;
+     }
+
+     .header-link {
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 1.5;
+     }
+
+     .header-item {
+         margin-bottom: 0;
+     }
+
+     .header-mail {
+         font-size: 16px;
+         line-height: 1.5;
+         margin-bottom: 0;
+     }
+
+     .header-tel {
+         font-size: 16px;
+         line-height: 1.5;
+         margin-bottom: 0;
      }
 
      .section-about {
@@ -32,20 +79,15 @@
          padding: 96px 16px;
      }
 
+     .section-services-list {
+         display: flex;
+         flex-wrap: wrap;
+     }
+
      .section-services-item {
          width: calc((100% - 24px) / 2);
-         gap: 24px;
      }
 
-     .section-services-subtitle {
-         font-size: 36px;
-         line-height: 1.11;
-     }
-
-     .section-services-text {
-         font-size: 16px;
-         line-height: 1.5;
-     }
 
      .section-contact,
      .section-customers {
@@ -53,23 +95,34 @@
          padding-bottom: 96px;
      }
 
-     .section-contact-item {
-         width: calc((100% - 24px) / 2);
+     .section-contact-list {
+         display: flex;
+         flex-wrap: wrap;
          gap: 24px;
      }
+
+     .section-contact-item {
+         width: calc((100% - 24px) / 2);
+     }
+
+     .section-customers-list {
+         flex-wrap: wrap;
+     }
+
 
      .section-customers-item {
          width: calc((100% - 48px) / 3);
-         gap: 24px;
      }
 
-     .footer {
-         width: 768px;
-         padding: 96px 0;
+
+     .footer-container {
+         max-width: 768px;
+         width: calc((100% - 24px) / 2);
+         display: flex;
      }
 
      .footer-list {
-         width: calc((100% - 24px) / 2);
+         display: flex;
          gap: 24px;
      }
  }

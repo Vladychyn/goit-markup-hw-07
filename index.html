@@ -16,8 +16,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/mobile.css">
-    <link rel="stylesheet" href="./css/desktop.css">
     <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
@@ -27,20 +27,66 @@
             <nav class="header-navigation">
                 <a href="./index.html" class="header-link-title link"><span class="colortext">Web</span><span
                         class="colortitle">Studio</span></a>
-                <ul class="header-list">
-                    <li class="header-item"><a href="" class="header-link link active">Studio</a></li>
-                    <li class="header-item"><a href="./portfolio.html" class="header-link link">Portfolio</a></li>
-                    <li class="header-item"><a href="" class="header-link link">Contacts</a></li>
-                </ul>
+                <button type="button" class="header-btn">
+                    <svg>
+                        <use href="./images/icons.svg/symbol-defs-mob.svg#icon-menu-mob"></use>
+                    </svg>
+                </button>
+                <div class="header-nav-mob">
+                    <button type="button" class="header-btn-close">
+                        <svg class="svg-close-mob">
+                            <use href="./images/icons.svg/symbol-defs-mob.svg#icon-close-mob"></use>
+                        </svg>
+                    </button>
+                    <ul class="header-list">
+                        <li class="header-item"><a href="" class="header-link link active">Studio</a></li>
+                        <li class="header-item"><a href="./portfolio.html" class="header-link link">Portfolio</a></li>
+                        <li class="header-item"><a href="" class="header-link link">Contacts</a></li>
+                    </ul>
             </nav>
             <address class="header-address">
-                <ul class="header-list">
+                <ul class="header-list-info">
                     <li class="header-item"><a href="mailto:info@devstudio.com"
                             class="header-mail">info@devstudio.com</a>
                     </li>
                     <li class="header-item"><a href="tel:+110001111111" class="header-tel">+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
+            <ul class="header-icon-list">
+                <li class="header-icon-item">
+                    <a href="" class="header-icon-link">
+                        <svg class="icon-mob">
+                            <use href="./images/icons.svg/symbol-def.svg#icon-instagramm">
+                            </use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header-icon-item">
+                    <a href="" class="header-icon-link">
+                        <svg class="icon-mob">
+                            <use href="./images/icons.svg/symbol-def.svg#icon-twitterr">
+                            </use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header-icon-item">
+                    <a href="" class="header-icon-link">
+                        <svg class="icon-mob">
+                            <use href="./images/icons.svg/symbol-def.svg#icon-facebookk">
+                            </use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header-icon-item">
+                    <a href="" class="header-icon-link">
+                        <svg class="icon-mob">
+                            <use href="./images/icons.svg/symbol-def.svg#icon-linkedinn">
+                            </use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
         </div>
     </header>
     <main class="main">
@@ -421,7 +467,7 @@
                 </form>
             </div>
         </div>
-    </footer>
+    </footer> -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" data-modal-close class="modal-close">

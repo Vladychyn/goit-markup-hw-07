@@ -1,85 +1,102 @@
- @media screen and (min-width: 480px) {
-     .container {
-         max-width: 396px;
-     }
+@media screen and (max-width: 767px) {
+    .header-list {
+        display: none;
+    }
 
-     .section-about {
-         max-width: 428px;
-         padding: 112px 0;
-         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                 rgba(46, 47, 66, 0.7)),
-             url(../images/people-office-mob.jpg);
-     }
-
-     @media (min-device-pixel-ratio: 2),
-     (min-resolution: 192dpil),
-     (min-resolution: 2dppx) {
-         .section-about {
-             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                     rgba(46, 47, 66, 0.7)),
-                 url(../images/people-office-mob-2x.jpg);
-         }
-     }
-
-     .section-about-title {
-         font-size: 36px;
-         line-height: 1.11;
-         width: 320px;
-         margin-bottom: 72px;
-     }
+    .header-address {
+        display: none;
+    }
+}
 
 
-     .section-services {
-         padding: 96px 16px;
-     }
 
-     .section-services-item {
-         width: 100%;
-     }
+.section-about {
+    max-width: 428px;
+    padding: 112px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/people-office-mob.jpg);
+}
 
-     .section-services-subtitle {
-         font-size: 36px;
-         line-height: 1.11;
-     }
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpil),
+(min-resolution: 2dppx) {
+    .section-about {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-mob-2x.jpg);
+    }
+}
 
-     .section-services-text {
-         font-size: 16px;
-         line-height: 1.5;
-     }
+.section-about-title {
+    font-size: 36px;
+    line-height: 1.11;
+    width: 320px;
+    margin-bottom: 72px;
+}
 
-     .section-contact {
-         padding-top: 96px;
-         padding-bottom: 96px;
-     }
+@media screen and (max-width: 1199px) {
+    .services-bg {
+        display: none;
+    }
 
-     .section-contact-item {
-         width: 100%;
-     }
+    .section-future {
+        display: none;
+    }
+}
 
-     .section-customers {
-         padding-top: 120px;
-         padding-bottom: 120px;
-     }
 
-     .section-customers-item {
-         width: calc((100% - 16px) / 2);
-         gap: 16px;
-     }
- }
+.section-services {
+    padding: 96px 16px;
+}
 
- @media screen and (min-width: 480px) and (max-width: 767px) {
-     .container-sm {
-         max-width: 264px;
-     }
+.section-services-item {
+    width: 100%;
+}
 
-     .footer {
-         width: 428px;
-         padding: 96px 0;
-     }
+.section-services-item:not(:last-child) {
+    margin-bottom: 72px;
+}
 
-     .footer-list {
-         list-style-type: none;
-         display: block;
-         width: 100%;
-     }
- }
+
+.section-contact {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.section-contact-item {
+    width: 100%;
+}
+
+.section-customers-list {
+    flex-wrap: wrap;
+}
+
+.section-customers-item {
+    width: calc((100% - 16px) / 2);
+}
+
+.footer-container {
+    padding: 96px 80px;
+}
+
+.footer-list {
+    width: 100%;
+    margin-bottom: 72px;
+}
+
+.footer-item {
+    margin-bottom: 72px;
+}
+
+.title-subscribe {
+    text-align: center;
+}
+
+.footer-input {
+    width: 100%;
+}
+
+.btn-subscribe {
+    margin-top: 16px;
+}
