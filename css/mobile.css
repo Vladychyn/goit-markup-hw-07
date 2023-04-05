@@ -76,18 +76,11 @@
     width: calc((100% - 16px) / 2);
 }
 
-.footer-container {
-    padding: 96px 80px;
-}
-
 .footer-list {
     width: 100%;
     margin-bottom: 72px;
 }
 
-.footer-item {
-    margin-bottom: 72px;
-}
 
 .title-subscribe {
     text-align: center;
